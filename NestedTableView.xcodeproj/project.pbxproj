@@ -14,6 +14,11 @@
 		A7099E6B2A29450B000E1D50 /* ReachabilityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E6A2A29450B000E1D50 /* ReachabilityController.swift */; };
 		A7099E6E2A294567000E1D50 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A7099E6D2A294567000E1D50 /* MBProgressHUD */; };
 		A7099E702A2945DA000E1D50 /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E6F2A2945DA000E1D50 /* MBProgressHUD.swift */; };
+		A7099E782A29536E000E1D50 /* NestedTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E772A29536E000E1D50 /* NestedTableViewTests.swift */; };
+		A7099E812A295544000E1D50 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A7099E802A295544000E1D50 /* MBProgressHUD */; };
+		A7099E832A295573000E1D50 /* MockCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E822A295573000E1D50 /* MockCountryVC.swift */; };
+		A7099E852A2955D0000E1D50 /* MockCountryDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E842A2955D0000E1D50 /* MockCountryDataProvider.swift */; };
+		A7099E882A295685000E1D50 /* CountryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7099E872A295685000E1D50 /* CountryStub.swift */; };
 		A74BEBB12A292A6900B7EB49 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74BEBB02A292A6900B7EB49 /* ActivityIndicator.swift */; };
 		A78508242A27FD6200393D37 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A78508232A27FD6200393D37 /* Alamofire */; };
 		A78508272A27FDA300393D37 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = A78508262A27FDA300393D37 /* NVActivityIndicatorView */; };
@@ -46,6 +51,16 @@
 		A7A4CC152A27F33B00D6DEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4CC132A27F33B00D6DEB7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A7099E792A29536E000E1D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A4CBFD2A27F33800D6DEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A4CC042A27F33800D6DEB7;
+			remoteInfo = NestedTableView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		556BDA419B5D8FE131A20FEB /* Pods-NestedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.release.xcconfig"; sourceTree = "<group>"; };
 		697BD358279EB54E7BE4741C /* Pods-NestedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +69,11 @@
 		A7099E682A2944E6000E1D50 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A7099E6A2A29450B000E1D50 /* ReachabilityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityController.swift; sourceTree = "<group>"; };
 		A7099E6F2A2945DA000E1D50 /* MBProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
+		A7099E752A29536E000E1D50 /* NestedTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7099E772A29536E000E1D50 /* NestedTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewTests.swift; sourceTree = "<group>"; };
+		A7099E822A295573000E1D50 /* MockCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCountryVC.swift; sourceTree = "<group>"; };
+		A7099E842A2955D0000E1D50 /* MockCountryDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCountryDataProvider.swift; sourceTree = "<group>"; };
+		A7099E872A295685000E1D50 /* CountryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryStub.swift; sourceTree = "<group>"; };
 		A74BEBB02A292A6900B7EB49 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		A785082B2A27FE5C00393D37 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		A785082D2A27FE6F00393D37 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
@@ -88,6 +108,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A7099E722A29536E000E1D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7099E812A295544000E1D50 /* MBProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A4CC022A27F33800D6DEB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +163,41 @@
 				A785084C2A280AE400393D37 /* CountryCellViewModel.swift */,
 			);
 			path = CellViewModel;
+			sourceTree = "<group>";
+		};
+		A7099E762A29536E000E1D50 /* NestedTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7099E7E2A295424000E1D50 /* CountryTests */,
+				A7099E862A295660000E1D50 /* Stub */,
+			);
+			path = NestedTableViewTests;
+			sourceTree = "<group>";
+		};
+		A7099E7E2A295424000E1D50 /* CountryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7099E7F2A295446000E1D50 /* MockClasses */,
+				A7099E772A29536E000E1D50 /* NestedTableViewTests.swift */,
+			);
+			path = CountryTests;
+			sourceTree = "<group>";
+		};
+		A7099E7F2A295446000E1D50 /* MockClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A7099E822A295573000E1D50 /* MockCountryVC.swift */,
+				A7099E842A2955D0000E1D50 /* MockCountryDataProvider.swift */,
+			);
+			path = MockClasses;
+			sourceTree = "<group>";
+		};
+		A7099E862A295660000E1D50 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				A7099E872A295685000E1D50 /* CountryStub.swift */,
+			);
+			path = Stub;
 			sourceTree = "<group>";
 		};
 		A78508282A27FE1E00393D37 /* Services */ = {
@@ -300,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A4CC072A27F33800D6DEB7 /* NestedTableView */,
+				A7099E762A29536E000E1D50 /* NestedTableViewTests */,
 				A7A4CC062A27F33800D6DEB7 /* Products */,
 				3384186512EC349DAE4BEB4D /* Pods */,
 				8F1030BCCE496F9083A0601E /* Frameworks */,
@@ -310,6 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A4CC052A27F33800D6DEB7 /* NestedTableView.app */,
+				A7099E752A29536E000E1D50 /* NestedTableViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,6 +398,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A7099E742A29536E000E1D50 /* NestedTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7099E7B2A29536E000E1D50 /* Build configuration list for PBXNativeTarget "NestedTableViewTests" */;
+			buildPhases = (
+				A7099E712A29536E000E1D50 /* Sources */,
+				A7099E722A29536E000E1D50 /* Frameworks */,
+				A7099E732A29536E000E1D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7099E7A2A29536E000E1D50 /* PBXTargetDependency */,
+			);
+			name = NestedTableViewTests;
+			packageProductDependencies = (
+				A7099E802A295544000E1D50 /* MBProgressHUD */,
+			);
+			productName = NestedTableViewTests;
+			productReference = A7099E752A29536E000E1D50 /* NestedTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A7A4CC042A27F33800D6DEB7 /* NestedTableView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7A4CC192A27F33B00D6DEB7 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
@@ -367,6 +453,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					A7099E742A29536E000E1D50 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A7A4CC042A27F33800D6DEB7;
+					};
 					A7A4CC042A27F33800D6DEB7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -391,11 +481,19 @@
 			projectRoot = "";
 			targets = (
 				A7A4CC042A27F33800D6DEB7 /* NestedTableView */,
+				A7099E742A29536E000E1D50 /* NestedTableViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A7099E732A29536E000E1D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A4CC032A27F33800D6DEB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,6 +553,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A7099E712A29536E000E1D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7099E852A2955D0000E1D50 /* MockCountryDataProvider.swift in Sources */,
+				A7099E782A29536E000E1D50 /* NestedTableViewTests.swift in Sources */,
+				A7099E882A295685000E1D50 /* CountryStub.swift in Sources */,
+				A7099E832A295573000E1D50 /* MockCountryVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A4CC012A27F33800D6DEB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,6 +599,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A7099E7A2A29536E000E1D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A4CC042A27F33800D6DEB7 /* NestedTableView */;
+			targetProxy = A7099E792A29536E000E1D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		A7A4CC0E2A27F33800D6DEB7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -510,6 +627,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A7099E7C2A29536E000E1D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApi.NestedTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedTableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NestedTableView";
+			};
+			name = Debug;
+		};
+		A7099E7D2A29536E000E1D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testApi.NestedTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedTableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NestedTableView";
+			};
+			name = Release;
+		};
 		A7A4CC172A27F33B00D6DEB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,6 +834,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A7099E7B2A29536E000E1D50 /* Build configuration list for PBXNativeTarget "NestedTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7099E7C2A29536E000E1D50 /* Debug */,
+				A7099E7D2A29536E000E1D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7A4CC002A27F33800D6DEB7 /* Build configuration list for PBXProject "NestedTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -732,6 +892,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		A7099E6D2A294567000E1D50 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7099E6C2A294567000E1D50 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A7099E802A295544000E1D50 /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A7099E6C2A294567000E1D50 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
 			productName = MBProgressHUD;
