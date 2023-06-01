@@ -1,0 +1,16 @@
+PODS:
+  - ExpandableCell (1.3.1)
+
+DEPENDENCIES:
+  - ExpandableCell
+
+SPEC REPOS:
+  trunk:
+    - ExpandableCell
+
+SPEC CHECKSUMS:
+  ExpandableCell: c57c3057395df3066ec33d239b59623825f1f716
+
+PODFILE CHECKSUM: 7b051907b57c40c365ff2d7a5898ac3f9629c4df
+
+COCOAPODS: 1.12.1
